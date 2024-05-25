@@ -104,15 +104,14 @@ max_binlog_size   = 100M
 # ssl-cert=/etc/mysql/server-cert.pem
 # ssl-key=/etc/mysql/server-key.pem
 
-
 #---------------------------------------------------------
 #      MASTER -> SLAVE: SLAVE CONFIGURATION
 #---------------------------------------------------------
 
-
 # server-id: number of server
 # by default if don't set server-id then value is 0
 server-id = 2
+bind-address        = 192.168.56.32
 
 # log_bin: mysql log path file
 log_bin = /var/log/mysql/mysql-bin.log
