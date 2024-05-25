@@ -1,0 +1,4 @@
+db_user: duongdx
+db_pass: 123456
+db_name: testing_db
+db_name2: critical_db
